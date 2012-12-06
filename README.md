@@ -1,3 +1,5 @@
 ## Hello, there ##
 
-Welcome to my git repo!
+Welcome to my github repo!
+
+See words at [wiki](https://github.com/betamint/uva/wiki/_pages).
