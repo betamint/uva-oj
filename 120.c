@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<string.h>
 #define MAX 30
-char buf[MAX * 3];
 int stack[MAX];
 int ordered[MAX];
 int position(int x);
@@ -13,15 +12,16 @@ int main() {
   int i, p;
   int end = 0;
   for(;;) {
+    if(end) break;
     pancakes = 0;
-    while(scanf("%d", &stack[pancakes++]) != EOF && getchar() != '\n') NULL;
-    if(pancakes == 1) break;
+    while((p = scanf("%d", &stack[pancakes++])) != EOF && getchar() != '\n') NULL;
+    if(p <= 0) { pancakes--; end = 1; }
 
     printf("%d", stack[0]);
     for(i = 1; i < pancakes; i++) printf(" %d", stack[i]);
     printf("\n");
 
-    memcpy(ordered, stack, MAX);
+    memcpy(ordered, stack, sizeof(stack));
     qsort(ordered, pancakes, sizeof(int), int_cmp);
 
     for(i = pancakes - 1; i >= 0; i--)
