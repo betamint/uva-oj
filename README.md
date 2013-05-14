@@ -1,5 +1,5 @@
-## Hello There ##
+## uva oj ##
 
-Welcome to my github repo!
+Here's my solutions for the problems in the uva-oj.
 
-See words at *wiki*.
+See words about each solution at *wiki*.
