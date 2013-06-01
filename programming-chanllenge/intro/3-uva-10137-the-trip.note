@@ -1,0 +1,9 @@
+This stupid problem wasted my whole afternoon, WTF!!!
+
+Got WA for:
+
+1. should be more cautions about '<' and '<=' (soon fixed)
+
+2. should use "long" datatype (that killed my afternoon...)
+
+PS. The first solution came up to me written in the .first.c file is very good.
