@@ -1,0 +1,10 @@
+This problem shouldn't have taken me much time, but the mustakes.
+
+1. index of 2D array mistyped
+2. try 3 different solutions, factually they are all the same
+3. miss understand the output format at first
+4. mistake in "screen[][] = figure[][][ p(index) ]" : wrong index
+5. too much time in rebuilding the program
+
+Always be careful when dealing with index!
+Make things clear!
